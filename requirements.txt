@@ -1,15 +1,15 @@
+streamlit
+pandas
 numpy
-requests
 scipy
 matplotlib
-pandas
-
 seaborn
+altair>=5
+beautifulsoup4
+requests
 pybase64
-altair
-imghdr
-bs4
-streamlit
+
+
 
 
 
