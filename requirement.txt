@@ -1,5 +1,4 @@
 numpy
-bs4
 requests
 scipy
 matplotlib
@@ -9,5 +8,6 @@ seaborn
 pybase64
 altair
 beautifulsoup4
+
 
 
