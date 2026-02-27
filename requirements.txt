@@ -6,8 +6,9 @@ pandas
 streamlit
 seaborn
 pybase64
-altair
+altair>=5
 beautifulsoup4
+
 
 
 
