@@ -7,8 +7,10 @@ streamlit
 seaborn
 pybase64
 altair
-bs4
-os
+beautifulsoup4
+
+
+
 
 
 
