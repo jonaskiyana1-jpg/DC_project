@@ -357,6 +357,26 @@ elif menu == "Voir Dashboard":
     conn.close()
 elif menu == "Formulaire d'évaluation":
     st.subheader("Formulaire d'évaluation")
-    st.markdown("[📝 Remplir le formulaire](https://ee.kobotoolbox.org/x/2rrMWz1a)")
+    # Créer deux colonnes côte à côte
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("### 📋 Formulaire Google")
+        st.components.v1.iframe(
+            "https://forms.gle/ozBATsB9hTEBx7LK7 ",
+            width=500,
+            height=600
+        )
+    
+    with col2:
+        st.markdown("### 📋 Formulaire Kobo")
+        st.components.v1.iframe(
+            "https://ee.kobotoolbox.org/x/2rrMWz1a",
+            width=500,
+            height=600
+        )
+    
+       
+
 
 
