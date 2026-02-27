@@ -61,10 +61,6 @@ c = conn.cursor()
 # In[ ]:
 
 
-import sqlite3
-
-from bs4 import BeautifulSoup as bs
-
 # Connexion SQL
 conn = sqlite3.connect("COIN.db")
 
