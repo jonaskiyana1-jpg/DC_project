@@ -22,7 +22,7 @@ st.markdown("<h1 style='text-align: center; color: black;'>MY DATA APP</h1>", un
 
 st.markdown("""
 This app allows you to download scraped data on shoes and clothes from coin Africa and to produce dashbords from cleaned data 
-* **Python libraries:** base64,coinAfr pandas, streamlit
+* **Python libraries:** base64,pandas, streamlit
 * **Data source:** [coinAfr](https://sn.coinafrique.com).
 """)
 
@@ -358,4 +358,5 @@ elif menu == "Voir Dashboard":
 elif menu == "Formulaire d'évaluation":
     st.subheader("Formulaire d'évaluation")
     st.markdown("[📝 Remplir le formulaire](https://ee.kobotoolbox.org/x/2rrMWz1a)")
+
 
