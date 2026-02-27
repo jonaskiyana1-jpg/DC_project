@@ -9,7 +9,8 @@ pybase64
 altair>=5
 imghdr
 beautifulsoup4
-streamlit>=1.30.0
+streamlit>=1.30
+
 
 
 
