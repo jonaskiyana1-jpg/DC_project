@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 st.markdown("<h1 style='text-align: center; color: black;'>MY DATA APP</h1>", unsafe_allow_html=True)
 
 st.markdown("""
-This app allows you to download scraped data on shoes and clothes from coin Africa and to produce dashbords from cleaned data 
+This app allows you to download scraped data on shoes and clothes from coin Africa and to produce dashboards from cleaned data 
 * **Python libraries:** base64,pandas, streamlit
 * **Data source:** [coinAfr](https://sn.coinafrique.com).
 """)
@@ -369,6 +369,7 @@ elif menu == "Formulaire d'évaluation":
         
     
        
+
 
 
 
