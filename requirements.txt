@@ -6,9 +6,11 @@ pandas
 streamlit
 seaborn
 pybase64
-altair==4.2.2
+altair>=5
 imghdr
 beautifulsoup4
+streamlit>=1.30.0
+
 
 
 
