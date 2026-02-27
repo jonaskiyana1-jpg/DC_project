@@ -3,13 +3,14 @@ requests
 scipy
 matplotlib
 pandas
-streamlit
+
 seaborn
 pybase64
 altair>=5
 imghdr
 beautifulsoup4
 streamlit>=1.30.0
+
 
 
 
