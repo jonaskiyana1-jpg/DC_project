@@ -267,13 +267,7 @@ elif menu == "Voir Dashboard":
                 df_prix = df_clean[df_clean["prix"] > 0]
                 df_sans_prix = df_clean[df_clean["prix"] == 0]
 
-                if "type_chaussure" in df_clean.columns:
-                    col_type = "type_chaussure"
-                elif "type_habit" in df_clean.columns:
-                    col_type = "type_habit"
-                else:
-                    col_type = None
-
+                #indicateurs globaux
                 st.metric("Prix moyen", f"{df_prix['prix'].mean():,.0f} FCFA")
                 st.metric("Prix minimum", f"{df_prix['prix'].min():,.0f} FCFA")
                 st.metric("Prix maximum", f"{df_prix['prix'].max():,.0f} FCFA")
@@ -369,6 +363,7 @@ elif menu == "Formulaire d'évaluation":
         
     
        
+
 
 
 
